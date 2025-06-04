@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Multi Account Login",
+    "version": "0.1",
+    "description": "Login to a website with multiple accounts.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+    
+  }
+  

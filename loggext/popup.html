@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+<head>
+  <title>Přihlášení na obědy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+      padding: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button {
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Učty</h1>
+  <ul id="accounts"></ul>
+  <!--<button id="addAccount">Přidat účet</button>-->
+  <button id="loadFromFile">Nahrát ze souboru</button>
+  <input type="file" id="fileInput" style="display: none;" accept=".txt">
+  <script src="popup.js"></script>
+</body>
+</html>
